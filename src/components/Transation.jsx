@@ -20,7 +20,7 @@ const Navbar = () => {// Toggle for submenu
       <div className="flex-1 flex flex-col ">
         {/* Navbar */}
         <div className="bg-purple-900 text-white px-4 py-2 flex justify-end items-center ">
-          <button>logout</button>
+          <button  className=" font-bold ">logout</button>
         </div>
 
         {/* Content Area */}
@@ -29,7 +29,7 @@ const Navbar = () => {// Toggle for submenu
             
         
       <div className='mx-auto max-w-7xl mt-10 bg-gray-100 shadow rounded'>
-        <div className="bg-blue-500 p-2">
+        <div className="bg-purple-900 p-2">
             <h1 className="text-white font-bold text-center">Transation</h1>
         </div>
         <form >
@@ -101,7 +101,7 @@ const Navbar = () => {// Toggle for submenu
 
               <button
                 type='submit'
-                className='bg-gray-50  ms-auto border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5'
+                className='bg-green-500  ms-auto border border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5'
                
               >
                 Save
@@ -110,15 +110,13 @@ const Navbar = () => {// Toggle for submenu
           </div>
         </form>
       </div>
-      <div className="grid md:grid-cols-2 max-w-7xl mx-auto gap-5 overflow-auto">
-      <div className='relative max-w-7xl col-span-1 mt-10 mb-20 mx-auto overflow-x-auto'>
+      <div className="grid md:grid-cols-2 max-w-7xl mx-auto gap-5 ">
+      <div className='relative w-full max-w-7xl col-span-1 mt-10 mb-20 mx-auto '>
         
         <table className='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
           <thead className='text-xs text-white uppercase bg-red-500 dark:bg-gray-700 dark:text-gray-400'>
             <tr>
-              <th scope='col' className='px-6 py-3'>
-                Account Type
-              </th>
+             
               <th scope='col' className='px-6 py-3'>
                 Account Head
               </th>
@@ -126,7 +124,7 @@ const Navbar = () => {// Toggle for submenu
                 Amount
               </th>
               <th scope='col' className='px-6 py-3'>
-                Status
+                Payment Method
               </th>
               <th scope='col' className='px-6 py-3'>
                 Actions
@@ -137,7 +135,7 @@ const Navbar = () => {// Toggle for submenu
            
               
                 <tr  className='bg-white border-b dark:bg-gray-800 dark:border-gray-700'>
-                  <td className='px-6 py-4'></td>
+                  
                   <td className='px-6 py-4'></td>
                   <td className='px-6 py-4'></td>
                   <td className='px-6 py-4'></td>
@@ -163,7 +161,7 @@ const Navbar = () => {// Toggle for submenu
           </tbody>
           <tfoot className='bg-gray-100 dark:bg-gray-700'>
       <tr>
-        <td colSpan='4' className='px-6 py-4 font-bold'>Total Credit</td>
+        <td colSpan='3' className='px-6 py-4 font-bold'>Total Credit</td>
         <td colSpan='1' className='px-6 py-4 font-bold'></td>
       </tr>
     </tfoot>
@@ -171,14 +169,12 @@ const Navbar = () => {// Toggle for submenu
       </div>
 
       {/* Debit Accounts Table */}
-      <div className='relative max-w-7xl col-span-1 mt-10 mb-20 mx-auto overflow-x-auto'>
+      <div className='relative w-full max-w-7xl col-span-1 mt-10 mb-20 mx-auto overflow-x-auto'>
         
         <table className='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
           <thead className='text-xs text-white uppercase bg-blue-500 dark:bg-gray-700 dark:text-gray-400'>
             <tr>
-              <th scope='col' className='px-6 py-3'>
-                Account Type
-              </th>
+              
               <th scope='col' className='px-6 py-3'>
                 Account Head
               </th>
@@ -186,7 +182,7 @@ const Navbar = () => {// Toggle for submenu
                 Amount
               </th>
               <th scope='col' className='px-6 py-3'>
-                Status
+                Payment Method
               </th>
               <th scope='col' className='px-6 py-3'>
                 Actions
@@ -198,7 +194,7 @@ const Navbar = () => {// Toggle for submenu
              
             
                 <tr className='bg-white border-b dark:bg-gray-800 dark:border-gray-700'>
-                  <td className='px-6 py-4'></td>
+                  
                   <td className='px-6 py-4'></td>
                   <td className='px-6 py-4'></td>
                   <td className='px-6 py-4'></td>
@@ -224,7 +220,7 @@ const Navbar = () => {// Toggle for submenu
           </tbody>
           <tfoot className='bg-gray-100 dark:bg-gray-700'>
       <tr>
-        <td colSpan='4' className='px-6 py-4 font-bold'>Total Credit</td>
+        <td colSpan='3' className='px-6 py-4 font-bold'>Total Credit</td>
         <td colSpan='1' className='px-6 py-4 font-bold'></td>
       </tr>
     </tfoot>

@@ -19,7 +19,7 @@ const Report = () => {// Toggle for submenu
       <div className="flex-1  flex flex-col ">
         {/* Navbar */}
         <div className="bg-purple-900 text-white px-4 py-2 flex justify-end items-center ">
-          <button>logout</button>
+          <button  className=" font-bold ">logout</button>
         </div>
 
         {/* Content Area */}
