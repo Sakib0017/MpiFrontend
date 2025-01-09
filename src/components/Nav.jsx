@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import mpi from "../assets/mpi.png"
-const Navbar = () => {
+const Nav = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState(false); // Toggle for submenu
 
@@ -78,4 +78,4 @@ const Navbar = () => {
 
 
 
-export default Navbar;
+export default Nav;

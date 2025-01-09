@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import mpi from "../assets/mpi.png"
 
 import Nav from "../components/Nav"
 const Navbar = () => {

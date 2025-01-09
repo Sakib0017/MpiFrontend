@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import mpi from "../assets/mpi.png";
 import Select from "react-select";
 import Nav from "../components/Nav";
 const Transation = () => {

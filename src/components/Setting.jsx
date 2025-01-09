@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import Nav from "../components/Nav";
-const Setting = () => {
+const Settings = () => {
   const [categoryName, setCategoryName] = useState("");
   const [categoryType, setCategoryType] = useState("credit");
   const [paymentMethodName, setPaymentMethodName] = useState("");
@@ -178,4 +178,4 @@ const Setting = () => {
   );
 };
 
-export default Setting;
+export default Settings;
