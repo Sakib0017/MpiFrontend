@@ -296,7 +296,7 @@ const Report = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">
+                <label className="block mb-2 mt-2 text-sm font-medium text-white dark:text-white">
                   Transaction Type
                 </label>
                 <Select
@@ -332,7 +332,7 @@ const Report = () => {
                 />
               </div>
               <div className="md:col-span-2 lg:col-span-1">
-                <label className="block text-sm font-medium mb-1">
+                <label className="block mb-2 mt-2 text-sm font-medium text-white dark:text-white">
                   Search Remarks
                 </label>
                 <input
