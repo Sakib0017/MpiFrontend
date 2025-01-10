@@ -35,7 +35,7 @@ const Nav = () => {
             <ul className="space-y-0">
             <li>
                 <Link
-                  to="/dashboard"
+                  to="/"
                   className="block p-4 hover:bg-purple-900"
                 >
                   Dashboard
